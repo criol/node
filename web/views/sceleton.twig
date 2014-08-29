@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block head_top %}
+        <title> OTT </title>
+    {% endblock %}
+    {% block head_base %}
+        {% block head_css %}
+            {% include 'snipets/css_head.twig' %}
+        {% endblock %}
+        {% block head_js %}
+        {% endblock %}
+    {% endblock %}
+    {% block head_bottom %}
+    {% endblock %}
+</head>
+<body class="{{ body_class|default('')|trim }}">
+{% block body_base %}
+    {{ body }}
+{% endblock %}
+{% block body_bottom %}
+    {% include 'snipets/js_bottom.twig' %}
+{% endblock %}
+</body>
+</html>

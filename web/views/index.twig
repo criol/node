@@ -1,0 +1,12 @@
+{% extends 'sceleton.twig' %}
+
+{% block body_base %}
+    <div class="fly">
+        <form data-fly-info-form class="fly-form">
+            <label class="fly-number">Flight Number <input type="text" name="flyNumber" data-fly-num/></label>
+            <label class="fly-departure">Departure Date <input type="text" name="depDate" data-dep-date /></label>
+            <a data-send-form href="javascript:void(0)" class="fly-btn">i wanna know</a>
+        </form>
+        <div class="fly-place-for-info" data-place-for-info>вы не ввели данные</div>
+    </div>
+{% endblock %}

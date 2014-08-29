@@ -1,0 +1,17 @@
+{
+    "name": "OTT",
+    "description": "OTT",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "4.x",
+        "errorhandler": "^1.1.1",
+        "curlrequest" : "0.5.1",
+        "twig": "*",
+        "gulp": "*",
+        "gulp-minify": "*",
+        "gulp-nodemon": "*",
+        "gulp-concat": "*",
+        "monitor": "*"
+    }
+}

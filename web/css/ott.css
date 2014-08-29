@@ -1,0 +1,50 @@
+.fly {
+    height: 500px;
+    margin: 100px auto 0;
+    width: 400px;
+}
+
+.fly label {
+    display: block;
+    width: 250px;
+    margin: 20px;
+}
+
+.fly label input {
+    float: right;
+}
+
+.fly .fly-form {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.fly .fly-btn {
+    background: none repeat scroll 0 0 #3680be;
+    color: white;
+    display: block;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+
+.fly .fly-place-for-info {
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 358px;
+}
+
+.fly .fly-place-for-info .statusType,
+.fly .fly-place-for-info .statusValue {
+    font-weight: bold;
+}
+
+.fly .fly-place-for-info table {
+    text-align: center;
+}
