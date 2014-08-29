@@ -1,5 +1,5 @@
 {
-  "name": "oot",
-  "description": "oot test task",
-  "keywords": ["node", "express", "static"]
+  "name": "ott",
+  "description": "ott test task",
+  "keywords": ["node", "express", "ott"]
 }
